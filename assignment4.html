@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chessboard</title>
+            <style type="text/css">
+              .tg  {border-collapse:collapse;
+                  border-spacing:0;}
+
+              .tg td {border-color:black;
+                border-style:solid;
+                border-width:2px;
+                font-family:Arial, sans-serif;font-size:14px;
+                overflow:hidden;
+                padding:10px 5px;
+                word-break:normal;
+                height:50px;
+                width:50px}
+
+              .tg th{border-color:black;
+                border-style:solid;
+                border-width:2px;
+                font-family:Arial, sans-serif;font-size:14px;
+                font-weight:normal;
+                overflow:hidden;
+                padding:10px 5px;
+                word-break:normal;
+                height:50px;
+                width:50px}
+
+              .tg .tg-9v8q{background-color:#dae8fc;
+                border-color:#333333;
+                text-align:center;
+                vertical-align:center;
+                height:5px;
+                width:5px}
+
+              .tg .tg-de2y{border-color:#333333;
+                text-align:center;
+                vertical-align:center}
+
+                margin {
+                    margin: 25px 25px 75px 10px;
+                  }
+
+            </style>
+          </head>
+          <body>
+            <div>
+            <h3>Contents</h3>
+              <ol>
+                <li> <a href="#Chessboard">Chessboard</a> </li>
+                <li> <a href="#Form">Form</a> </li>
+                <li> <a href="#Google">Google</a> </li>
+                <li> <a href="#Accessibility">Accessibility</a> </li>
+              </ol>
+              </div>
+
+            <div>
+            <h2 id="Chessboard" >Challenge 2: Build a Chessboard</h2>
+            <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-9v8q">&#9820;</th>
+            <th class="tg-de2y">&#9822;</th>
+            <th class="tg-9v8q">&#9821;</th>
+            <th class="tg-de2y">&#9819;</th>
+            <th class="tg-9v8q">&#9818;</th>
+            <th class="tg-de2y">&#9821;</th>
+            <th class="tg-9v8q">&#9822;</th>
+            <th class="tg-de2y">&#9820;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-de2y">&#9821;</td>
+            <td class="tg-9v8q">&#9821;</td>
+            <td class="tg-de2y">&#9821;</td>
+            <td class="tg-9v8q">&#9821;</td>
+            <td class="tg-de2y">&#9821;</td>
+            <td class="tg-9v8q">&#9821;</td>
+            <td class="tg-de2y">&#9821;</td>
+            <td class="tg-9v8q">&#9821;</td>
+          </tr>
+          <tr>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+          </tr>
+          <tr>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+          </tr>
+          <tr>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+          </tr>
+          <tr>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+            <td class="tg-de2y"></td>
+            <td class="tg-9v8q"></td>
+          </tr>
+          <tr>
+            <td class="tg-9v8q">&#9817;</td>
+            <td class="tg-de2y">&#9817;</td>
+            <td class="tg-9v8q">&#9817;</td>
+            <td class="tg-de2y">&#9817;</td>
+            <td class="tg-9v8q">&#9817;</td>
+            <td class="tg-de2y">&#9817;</td>
+            <td class="tg-9v8q">&#9817;</td>
+            <td class="tg-de2y">&#9817;</td>
+          </tr>
+          <tr>
+            <td class="tg-de2y">&#9814;</td>
+            <td class="tg-9v8q">&#9816;</td>
+            <td class="tg-de2y">&#9815;</td>
+            <td class="tg-9v8q">&#9813;</td>
+            <td class="tg-de2y">&#9812;</td>
+            <td class="tg-9v8q">&#9815;</td>
+            <td class="tg-de2y">&#9816;</td>
+            <td class="tg-9v8q">&#9814;</td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+
+        <div> <!--Create a Form Challenge (3) -->
+          <h2 id="Form">Challenge 3: Create a Form</h2>
+            <form>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value=""><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value=""><br>
+              <p>What's your favorite type of weather?</p>
+                <input type="checkbox" id="weather1" name="weather1" value="Sunny">
+                <label for="weather1"> Sunny!</label><br>
+                <input type="checkbox" id="weather2" name="weather2" value="Rainy">
+                <label for="weather2"> Rainy</label><br>
+                <input type="checkbox" id="weather3" name="weather3" value="Cloudy">
+                <label for="weather3"> Cloudy</label>
+              <p> Did you like filling out this form?</p>
+                <input type="radio" id="yes" name="like_form" value="yes">
+                <label for="yes">yes</label><br>
+                <input type="radio" id="YES" name="like_form" value="YES">
+                <label for="YES">YES</label><br>
+                <input type="radio" id="absolutely" name="like_form" value="absolutely">
+                <label for="absolutely">absolutely</label>
+              <br><br>
+              <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div><!--Create a Google Search Page (3) -->
+          <h2 id="Google">Challenge 4: A Google Search Page</h2>
+
+          <p>https://cubuffs.com</p>
+          <h3 style="color:blue">University of Colorado Athletics - Official Athletics Website</h3>
+          <table>
+          <thead>
+          <tr>
+            <th>Staff Directory<br>Department Address ; Deputy<br>Athletic Director · Senior ...</th>
+            <th>Women's Basketball<br>The official Women's Basketball<br>page for the University of ...</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Men's Basketball<br>The official Men's Basketball page<br>for the University of Colorado ...</td>
+            <td>Track and Field<br>The official Track and Field page<br>for the University of Colorado ...</td>
+          </tr>
+          <tr>
+            <td>Football<br>The official Football page for the<br>University of Colorado Buffs.</td>
+            <td>CU Men's Basketball<br>Gameday · Gameday Coverage ·<br>Content Stream · Roster ...</td>
+          </tr>
+          <tr>
+            <td>More results from cubuffs.com &gt;&gt;</td>
+            <td></td>
+          </tr>
+          </tbody>
+          </table>
+
+        </div>
+
+        <div>
+          <h2 id="Accessibility"> Challenge 5: Accessibility Concerns </h2>
+
+          <p> I think there could potentially be several accessibility concerns on this page. One of the biggest concerns that I think could arise, would be the way
+            the google page would be read. Because I used a table to format the information, if the site were to be read aloud for a user with vision imparement,
+            the information could be translated incorrectly by a computer. When doing research on acciessibility, I also came across some information that
+            talke about how screen readers can have issues with forms due to the way they're internally formatted which could potentially happen with my site. As of now,
+            there isn't a way to smoothly navigate back to the home page so that's also an accessibility issue.
+          </p>
+        </div>
+
+
+
+  </body>
+</html>
