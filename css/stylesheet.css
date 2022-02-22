@@ -1,6 +1,12 @@
 p{
   color: red;
   text-align: center;
+  padding:10px 20px 5px 40px; /*adds pixels of white space inside */ /*Top, right, left, bottom*/
+  margin: 20px; /*adds space from box to page*/
+  border: 20px solid black;
+  width: 150px;
+  height: 200px;
+  display: inline-block;
 }
 
 #test-id-1 {
@@ -16,4 +22,25 @@ a:hover {
 h1{
   font-style: italic;
   font-size: 300%
+}
+
+span{
+  background-color: red;
+  padding: 5px;
+}
+
+.wrapper{
+  display: flex;
+  background-color: red;
+  display: grid;
+  grid-template-columns:100px 100px 100px;
+  grid-template-rows:100px 100px 100px;
+  grid-gap:10px;
+}
+.wrapper > div{
+  flex:1;
+}
+
+.box{
+
 }

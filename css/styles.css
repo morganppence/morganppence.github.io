@@ -10,6 +10,7 @@ body{
     position: relative;
     overflow: hidden;
     background-color: #A8CCC9;
+    flex:1;
   }
 
   .topnav a {
