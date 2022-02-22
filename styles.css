@@ -1,36 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body{
+    background-color: #A8CCC9;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
 
   .topnav {
+    position: relative;
     overflow: hidden;
-    background-color: #8BA7FF;
+    background-color: #A8CCC9;
   }
 
   .topnav a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 21px;
   }
 
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #DCEAB2;
     color: black;
   }
 
   .topnav a.active {
-    background-color: #3363F9;
+    background-color: #C7D66D;
     color: white;
   }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 h1{
     font-family: 'Playfair Display', serif;
-    color: red;
+    color: #C7D66D;
+    text-align: center;
+}
+h3{
+  font-family: 'Playfair Display', serif;
+  border: 2px solid powderblue;
+
+}
+h4{
+  font-family: 'Playfair Display', serif;
+
+}
+p{
+  font-family: 'Playfair Display', serif;
+  color: #1D2425;
+  font-size: 160%;
+}
+
+
+hr{
+  font-family: 'Playfair Display', serif;
+  color: #1D2425;
+}
+
+img{
+  border: 3px solid #C7D66D;
+}
+
+iframe{
+  border: 3px solid #DCEAB2;
 }
