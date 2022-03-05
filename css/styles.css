@@ -103,13 +103,32 @@ iframe{
 
   p{
     font-family: 'Playfair Display', serif;
-    font-size: 5px;
+    font-size: 4px;
     margin: 1em 1em;
     display: flex;
     flex-wrap: nowrap;
   }
-  #test{
-    font-size: 100px;
+
+  #major{
+    font-size: 1em;
+  }
+
+  #personal{
+    font-size: 1em;
+  }
+
+  #hi{
+    font-size: 1em;
+  }
+
+  #pronouns{
+    font-size: 1em;
+  }
+  #picme{
+    font-size: 1em;
+  }
+  #linkyt{
+    font-size: 1em;
   }
 
   h3{
@@ -118,7 +137,6 @@ iframe{
     margin: 1em 1em;
     display: flex;
     flex-wrap: nowrap;
-    background-color: black;
   }
 
   h4{
@@ -127,7 +145,6 @@ iframe{
     margin: 1em 1em;
     display: flex;
     flex-wrap: nowrap;
-    background-color: black;
   }
 
 }
