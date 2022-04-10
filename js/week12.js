@@ -20,7 +20,7 @@ function displayQuote(quote) {
   quoteText.textContent = quote;
 }
 
-const url = 'http://quotes.stormconsultancy.co.uk/random.json';
+const url = 'https://api.kanye.rest/';
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
 
