@@ -264,6 +264,10 @@ console.log("***** PROBLEM 5 *****");
 
  /**
  * For as long as there is an item in the employee array{
+ for (var wfh of employees.employeeDetails){
+   console.log(`${employees.employeeDetials[wfh].Anna}: ${employees.employeeDetails[wfh].Sam}`);
+   wfh = employees['wfh'][true];
+ }
  *  if the name value is "Anna" or if the name value is "Sam"{
  *    set employee wfh = true
  *  }
