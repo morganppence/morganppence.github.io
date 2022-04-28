@@ -5,20 +5,27 @@
 
 
 body{
-    background-color: #A8CCC9;
+    background-color: #E4EFEE;
     margin: 0;
     font-family: 'Lato', sans-serif;
   }
 
-  .topnav {
-    position: relative;
-    overflow: hidden;
-    background-color: #A8CCC9;
-    flex:1;
+  * {
+    box-sizing: border-box;
   }
 
-  .topnav a {
-    float: right;
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+    background-color: #E4EFEE;
+  }
+
+  .flex-container a {
+    /* float: left; */
+    flex-grow: 1;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -27,21 +34,77 @@ body{
   }
 
 
-  .topnav a:hover {
+  .flex-container a:hover {
     background-color: #DCEAB2;
     color: black;
   }
 
-  .topnav a.active {
-    background-color: #C7D66D;
+  .flex-container a.active {
+    background-color: #DCEAB2;
     color: white;
   }
+
+
+  .flex-item-contact {
+    background-color: #E4EFEE;
+    padding: 10px;
+    flex: 25%;
+  }
+
+  .flex-item-more {
+    background-color: #E4EFEE;
+    padding: 10px;
+    flex: 25%;
+  }
+
+  .flex-item-work {
+    background-color: #E4EFEE;
+    padding: 10px;
+    flex: 25%;
+  }
+
+  .flex-item-home {
+    background-color: #E4EFEE;
+    padding: 10px;
+    flex: 25%;
+  }
+
+
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  /* Create two equal columns that floats next to each other */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 40px;
+  }
+
+  .column img {
+    margin-top: 12px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
 h1{
@@ -51,7 +114,7 @@ h1{
 }
 h3{
   font-family: 'Lato', sans-serif;
-  border: 2px solid powderblue;
+  /*border: 2px solid powderblue;*/
 }
 h4{
   font-family: 'Lato', sans-serif;
@@ -70,11 +133,11 @@ hr{
 }
 
 img{
-  border: 3px solid #C7D66D;
+  /*border: 3px solid #C7D66D;*/
 }
 
 iframe{
-  border: 3px solid #DCEAB2;
+  /*border: 3px solid #DCEAB2;*/
 }
 
 label{
@@ -177,7 +240,7 @@ input[type=text] {
   }
 
   body{
-      background-color: #A8CCC9;
+      background-color: #E4EFEE;
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -185,13 +248,13 @@ input[type=text] {
     .topnav {
       position: relative;
       overflow: hidden;
-      background-color: #A8CCC9;
+      background-color: #E4EFEE;
       flex:1;
     }
 
     .topnav a {
       float: right;
-      color: #f2f2f2;
+      color: #000000;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -205,7 +268,7 @@ input[type=text] {
 
     .topnav a.active {
       background-color: #C7D66D;
-      color: white;
+      color: #000000;
     }
 
   .center {
@@ -215,6 +278,10 @@ input[type=text] {
       width: 50%;
     }
 
+  .indexImg{
+    padding: 10px, 40px, 10px, 10px;
+  }
+
   h1{
       font-family: 'Lato', serif;
       color: #C7D66D;
@@ -222,7 +289,7 @@ input[type=text] {
   }
   h3{
     font-family: 'Lato', serif;
-    border: 2px solid powderblue;
+    /*border: 2px solid #E4EFEE;*/
     /* background-color: green; */
   }
   h4{
@@ -242,7 +309,7 @@ input[type=text] {
   }
 
   img{
-    border: 3px solid #C7D66D;
+    /*border: 3px solid #C7D66D;*/
   }
 
   iframe{
