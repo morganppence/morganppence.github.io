@@ -14,6 +14,12 @@ body{
     box-sizing: border-box;
   }
 
+  .work {
+        background-color: #EBEBEB;
+        font-family: 'Lato', sans-serif;
+  }
+
+
   .flex-container {
     display: flex;
     justify-content: space-between;
@@ -26,22 +32,26 @@ body{
   .flex-container a {
     /* float: left; */
     flex-grow: 1;
-    color: #f2f2f2;
+    /*color: #707070;*/
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 27px;
+    font-weight: bold;
   }
 
 
   .flex-container a:hover {
-    background-color: #DCEAB2;
-    color: black;
+    /*background-color: #DCEAB2;*/
+    font-weight: bold;
+    color: #FCCE3D;
   }
 
   .flex-container a.active {
-    background-color: #DCEAB2;
-    color: white;
+    /*background-color: #DCEAB2;*/
+        font-weight: bold;
+    color: #707070;
   }
 
 
@@ -78,6 +88,27 @@ body{
     width: 50%;
   }
 
+  #box_shadow {
+    border: 2px solid;
+    padding: 5px;
+    box-shadow: 10px 15px #FDF1C9;
+    background-color: #F0DA94;
+  }
+
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #AEC1BA;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+img{
+  /*border: 3px solid #C7D66D;*/
+}
+
   /* Create two equal columns that floats next to each other */
 
   * {
@@ -108,10 +139,11 @@ body{
   }
 
 h1{
-    font-family: 'Lato', sans-serif;
-    color: #C7D66D;
+    font-family: 'Lato', serif;
+    color: #393737;
     text-align: center;
-}
+  }
+
 h3{
   font-family: 'Lato', sans-serif;
   /*border: 2px solid powderblue;*/
@@ -122,7 +154,7 @@ h4{
 }
 p{
   font-family: 'Lato', sans-serif;
-  color: #1D2425;
+  color: white;
   font-size: 1em;
 }
 
@@ -145,12 +177,17 @@ label{
 }
 
 input[type=text] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   font-family: 'Lato', sans-serif;
-  width: 60%;
-  padding: 12px 18px;
-  margin: 8px 0;
-  box-sizing: border-box;
+  width: 80%;
+  padding: 12px 12px;
+  margin: 4px 4px;
   Background-color: #F0DA94;
+  border: none;
+  font-size: 1.25em;
 }
 
 /*media quaries*/
@@ -208,6 +245,12 @@ input[type=text] {
   #linkyt{
     font-size: 1em;
   }
+
+#box_shadow {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
 
   h3{
     font-family: 'Lato', sans-serif;
@@ -282,9 +325,14 @@ input[type=text] {
     padding: 10px, 40px, 10px, 10px;
   }
 
+  img {
+  max-width: 100%;
+  height: auto;
+}
+
   h1{
       font-family: 'Lato', serif;
-      color: #C7D66D;
+      color: #393737;
       text-align: center;
   }
   h3{
@@ -298,7 +346,7 @@ input[type=text] {
   }
   p{
     font-family: 'Lato', serif;
-    color: #1D2425;
+    color: white;
     font-size: 160%;
   }
 
