@@ -14,12 +14,6 @@ body{
     box-sizing: border-box;
   }
 
-  .work {
-        background-color: #EBEBEB;
-        font-family: 'Lato', sans-serif;
-  }
-
-
   .flex-container {
     display: flex;
     justify-content: space-between;
@@ -88,6 +82,72 @@ body{
     width: 50%;
   }
 
+  .work {
+        background-color: #EBEBEB;
+        font-family: 'Lato', sans-serif;
+
+  }
+          .work-flex-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 20px;
+            text-align: center;
+            background-color: #EBEBEB;
+          }
+
+
+
+          .work-flex-container a {
+            /* float: left; */
+            flex-grow: 1;
+            /*color: #707070;*/
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 27px;
+            font-weight: bold;
+          }
+
+
+          .work-flex-container a:hover {
+            /*background-color: #DCEAB2;*/
+            font-weight: bold;
+            color: #FCCE3D;
+          }
+
+          .work-flex-container a.active {
+            /*background-color: #DCEAB2;*/
+                font-weight: bold;
+            color: #707070;
+          }
+
+
+          .work-flex-item-contact {
+            background-color: #E4EFEE;
+            padding: 10px;
+            flex: 25%;
+          }
+
+          .work-flex-item-more {
+            background-color: #E4EFEE;
+            padding: 10px;
+            flex: 25%;
+          }
+
+          .work-flex-item-work {
+            background-color: #E4EFEE;
+            padding: 10px;
+            flex: 25%;
+          }
+
+          .work-flex-item-home {
+            background-color: #E4EFEE;
+            padding: 10px;
+            flex: 25%;
+          }
+
   #box_shadow {
     border: 2px solid;
     padding: 5px;
@@ -150,11 +210,13 @@ h3{
 }
 h4{
   font-family: 'Lato', sans-serif;
+  color: #707070;
+  font-size: 1em;
 
 }
 p{
   font-family: 'Lato', sans-serif;
-  color: white;
+  color: #707070;
   font-size: 1em;
 }
 
@@ -188,6 +250,30 @@ input[type=text] {
   Background-color: #F0DA94;
   border: none;
   font-size: 1.25em;
+}
+
+.tile_div{
+    text-align: center;
+    width: 100%;
+}
+
+.tile_table{
+    border-collapse:collapse;
+}
+
+.tile_table tr, td{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tile_image{
+    padding: 3px 5px 0px 3px;
+    margin: 5px 5px 0px 5px;
+}
+
+.tile_p{
+    line-height: 0px;
 }
 
 /*media quaries*/
@@ -346,7 +432,7 @@ input[type=text] {
   }
   p{
     font-family: 'Lato', serif;
-    color: white;
+    color: #707070;
     font-size: 160%;
   }
 
