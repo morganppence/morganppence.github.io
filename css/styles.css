@@ -355,6 +355,10 @@ input[type=text] {
   flex: 100%;
   max-width: 100%;
 }
+.row {
+  flex: 100%;
+  max-width: 100%;
+}
 
 
   img {
