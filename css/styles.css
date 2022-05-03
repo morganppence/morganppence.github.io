@@ -73,6 +73,43 @@ body{
     flex: 25%;
   }
 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2px;
+
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 2px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  #mountain img{
+    float: left;
+    margin: 20px 100px;
+  }
+#surf img {
+  float: right;
+  margin: 20px 200px;
+
+}
+#drive img{
+  float: left;
+  margin: 20px 100px;
+}
+
+#workSpace img{
+  margin: 10px 10px;
+}
 
 
 .center {
@@ -173,16 +210,7 @@ img{
 
   /* Create two equal columns that floats next to each other */
 
-  * {
-    box-sizing: border-box;
-  }
 
-  body {
-    margin: 0;
-    font-family: Arial;
-  }
-
-  /* Create two equal columns that floats next to each other */
 /*.column {
     float: left;
     width: 50%;
@@ -196,8 +224,9 @@ img{
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
-  }
-*/
+  }*/
+
+
 
 
   /* Clear floats after the columns */
@@ -317,6 +346,16 @@ input[type=text] {
     flex-wrap: wrap;
 
   }
+
+  /*.column {
+  flex: 50%;
+  max-width: 50%;
+}*/
+.column {
+  flex: 100%;
+  max-width: 100%;
+}
+
 
   img {
     display: block;

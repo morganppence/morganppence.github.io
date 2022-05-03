@@ -20,6 +20,12 @@ body{
     font-size: 1em;
   }
 
+  h2{
+    font-family: 'Lato', sans-serif;
+    color: #707070;
+    font-size: 1em;
+  }
+
 .header {
   text-align: center;
 }
