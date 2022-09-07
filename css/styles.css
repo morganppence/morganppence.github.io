@@ -93,7 +93,7 @@ body{
     width: 100%;
   }
 
-  #mountain img{
+#mountain img{
     float: left;
     margin: 20px 100px;
   }
@@ -111,6 +111,12 @@ body{
   margin: 10px 10px;
 }
 
+.headerSpesh{
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+  color: #707070;
+}
 
 .center {
     display: block;
