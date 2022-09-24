@@ -23,6 +23,10 @@ body {
   text-align: center;
   color: #707070;
 }
+
+#lab1 img{
+  width: 100%;
+  padding: 20px;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -30,6 +34,7 @@ body {
 .leftcolumn {
   float: left;
   width: 75%;
+  background-color: #E4EFEE;
 }
 
 /* Right column */
@@ -41,13 +46,18 @@ body {
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
+
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
-.card {
+.card1 {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+.card2 {
    background-color: white;
    padding: 20px;
    margin-top: 20px;

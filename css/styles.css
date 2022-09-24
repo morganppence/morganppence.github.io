@@ -526,7 +526,9 @@ input[type=text] {
   }
 
   iframe{
-    border: 3px solid #DCEAB2;
+    /*border: 3px solid #DCEAB2;*/
+    height: 50%;
+    width: 50%;
   }
 
 }
