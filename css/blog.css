@@ -7,6 +7,7 @@
 /* Add a gray background color with some padding */
 body {
   padding: 20px;
+  background #E4EFEE:
 }
 
 /* Header/Blog Title */
@@ -53,7 +54,8 @@ body {
 
 /* Add a card effect for articles */
 .card1 {
-   background-color: white;
+   /*background-color: white;*/
+   background-color: #D5E6E6;
    padding: 20px;
    margin-top: 20px;
 }
@@ -64,11 +66,11 @@ body {
 }
 
 /* Clear floats after the columns */
-.row:after {
+/*.row:after {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 /* Footer */
 .footer {
