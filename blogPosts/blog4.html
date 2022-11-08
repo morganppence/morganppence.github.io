@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Morgan Pence</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!--<link rel=”stylesheet” href=”imagePaddingSingleSides.css”>-->
+    <!--<link rel=”stylesheet” href=./indexGrid.css”> -->
+
+    <style>
+    table, th, td {
+  border;
+  font-family: 'Lato', sans-serif;
+  color: #707070;
+
+  }
+
+  p {
+    font-size: 1.5em;
+
+  }
+
+  h2 {
+    float: center;
+  }
+
+  #circuit img{
+      float: left;
+      margin: 20px 100px;
+    }
+
+
+  #ohmslaw p{
+    float: left;
+    margin: 20px 100px;
+  }
+</style>
+
+
+
+
+  </head>
+  <body>
+
+    <div class="flex-container">
+      <a href="../index.html">HOME</a>
+      <a class="active" href="../work.html">WORK</a>
+      <a href="../moreofme.html">ABOUT</a>
+      <a href="../contact.html">CONTACT</a>
+      <a href="../finalJS2.html">FINAL JS PROJECT</a>
+    </div>
+
+
+    <div class="headerSpesh">
+      <h2>Lab 4: Game Controller</h2>
+    </div>
+
+<div> <!-- Div for all info under title-->
+      <div class="row">
+        <div class="column">
+          <div id="circuit">
+            <br><br><br><br><br><br><br><br>
+
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/768731891?h=348112e080&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Lab 4: Game Controller"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+            <br><br><br><br><br>
+            <p>A edit view of my p5 workspace: </p>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://editor.p5js.org/morganppence/sketches/C0cIdnguD" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Lab 4: Game Controller"></iframe></div>
+            <p>Use <a href="https://editor.p5js.org/morganppence/sketches/C0cIdnguD">this link</a> in your browser to test it yourself!</p>
+            <br><br><br><br>
+            <p>Here is a view of inside my my box</p>
+          <img src="blogIMG/Lab4Pt1.jpeg" style="width:75%">
+          <br><br>
+          <p>A schematic of this circuit:</p>
+          <img src="blogIMG/Lab4Pt2.jpeg" style="width:75%">
+
+
+
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br>
+
+
+
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <!--  <div id="drive">
+          <img src="blogIMG/Lab2Pt3.jpg" style="width:80%">
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/753139736?h=f2ac11b263&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Lab2: Breakout Board"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+          <!--<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/753139736?h=f2ac11b263&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="BreakoutBoard.MOV"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+        </div> -->
+
+        </div>
+        <div class="column">
+          <br><br><br>
+          <p>In this lab, I learned how to use serial communication between Arduino and P5JS to create a game. Using my sensor box from Lab 3, I was able to use the two potentiometers allowing a signal from the Arduino to be sent to P5.</p>
+          <p>To start this lab, I worked on the Arduino to P5 serial setup. My two analog inputs from my sensor box, the potentiometers, now act as inputs for my screen interaction.  With p5 up and running, I started working with my index.html, p5.serialport.js, sketch.js, and styles.css files. </p>
+          <p>I built a screen-based interface game in which the user’s goal is to get the circle from the top left corner of the screen past the obstacles and to the bottom right corner. By using the p5.serialcontrol app, I was able to sync my Arduino controller and my p5.js code.  I created a canvas to match the screen width and height and added a few shapes to create the background of the game. I then created and mapped my ellipse (circle) to move on the x and y plane in coordination with my potentiometers.</p>
+
+
+          <script src="https://gist.github.com/morganppence/8dd3283b84374f5f6f6cab87a4084410.js"></script>
+          <p>I was able to use my Arduino code and circuit from the previous project, my sensor box. I did this by getting rid of the elememts relating to the LEDs and printing my potentiometer values.</p>
+          <p>I used the p5 website to generate elements of my interactive design. For example, I drews the shapes used as obsicles and the ellipse from the example pages on the p5 resource page:)</p>
+
+          <!--<img src="blogIMG/1stcircuits.jpg" style="width:75%">-->
+
+          <br><br><br><br><br><br>
+
+
+
+        </div>
+
+      </div>
+
+</div
+
+
+
+
+
+
+  </body>
+</html>
